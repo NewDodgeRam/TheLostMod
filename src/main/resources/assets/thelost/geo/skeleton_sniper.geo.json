@@ -1,0 +1,66 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Torso",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"pivot": [-4, 23, 0],
+					"cubes": [
+						{"origin": [-16, 23, -1], "size": [12, 2, 2], "pivot": [-4, 23, 0], "rotation": [0, 0, -90], "uv": [20, 16]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"pivot": [4, 23, 0],
+					"cubes": [
+						{"origin": [-8, 21, -1], "size": [12, 2, 2], "pivot": [4, 23, 0], "rotation": [0, 0, -90], "uv": [24, 24]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 12, 2], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [2, 12, 2], "uv": [24, 28]}
+					]
+				},
+				{
+					"name": "quiver",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 13, 2], "size": [3, 11, 1], "pivot": [3, 14, 2], "rotation": [0, 0, -35], "uv": [8, 32]}
+					]
+				}
+			]
+		}
+	]
+}

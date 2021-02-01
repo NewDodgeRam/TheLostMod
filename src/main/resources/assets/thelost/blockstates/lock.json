@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "thelost:block/lock" }
+  }
+}

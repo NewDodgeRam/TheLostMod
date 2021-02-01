@@ -1,0 +1,168 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.skeleton_sniper.idle": {
+			"loop": true,
+			"animation_length": 8.32,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.16": {
+							"vector": [0, 0, -2],
+							"easing": "easeInOutQuad"
+						},
+						"8.32": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.16": {
+							"vector": [0, 0, 2],
+							"easing": "easeInOutQuad"
+						},
+						"8.32": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				}
+			}
+		},
+		"animation.skeleton_sniper.walk": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"right_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-25, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"0.48": {
+							"vector": [25, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.0": {
+							"vector": [-25, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [25, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"0.52": {
+							"vector": [-25, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.04": {
+							"vector": [25, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0]
+						},
+						"0.52": {
+							"vector": [15, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.04": {
+							"vector": [-15, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [15, 0, 0]
+						},
+						"0.52": {
+							"vector": [-15, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.04": {
+							"vector": [15, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				}
+			}
+		},
+		"animation.skeleton_sniper.run": {
+			"loop": true,
+			"animation_length": 0.44,
+			"bones": {
+				"right_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-50, 0, 0]
+						},
+						"0.2": {
+							"vector": [50, 0, 0]
+						},
+						"0.4": {
+							"vector": [-50, 0, 0]
+						}
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [50, 0, 0]
+						},
+						"0.2": {
+							"vector": [-50, 0, 0]
+						},
+						"0.4": {
+							"vector": [59, 0, 0]
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-30, 0, 0]
+						},
+						"0.2": {
+							"vector": [30, 0, 0]
+						},
+						"0.4": {
+							"vector": [-30, 0, 0]
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [30, 0, 0]
+						},
+						"0.2": {
+							"vector": [-30, 0, 0]
+						},
+						"0.4": {
+							"vector": [30, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

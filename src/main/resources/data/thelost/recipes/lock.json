@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "y":
+    {
+      "item": "thelost:key1"
+    }
+  },
+
+  "result":
+  {
+    "item": "thelost:lock",
+    "count": 1
+  }
+}

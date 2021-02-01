@@ -1,0 +1,14 @@
+{
+  "item.thelost.key1": "Key to the Overworld",
+  "item.thelost.key2": "Key to the Nether",
+  "item.thelost.key3": "Key to the End",
+  "item.thelost.key4": "Key to the §kUnknown",
+  "block.thelost.lock": "Lock",
+  "itemGroup.thelostcreativetab": "thelost",
+  "entity.thelost.husk_hulk": "Husk Hulk",
+  "entity.thelost.tao_teki": "Tao Teki",
+  "entity.thelost.blaze_keeper": "Blaze Keeper",
+  "entity.thelost.skeleton_sniper": "Skeleton Sniper",
+  "entity.thelost.spitter": "Spitter",
+  "entity.thelost.mega_shroom": "Mega Shroom"
+}

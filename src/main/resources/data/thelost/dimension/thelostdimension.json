@@ -1,0 +1,21 @@
+{
+    "type": "thelost:thelosttype",
+    "generator" : {
+        "settings": {
+          "lakes": false,
+          "features": true,
+          "biome": "minecraft:the_void",
+          "structures": {
+            "structures": {}
+          },
+          "layers": [
+            {
+              "height": 1,
+              "block": "minecraft:air"
+            }
+          ]
+        },
+        "type": "minecraft:flat"
+      }
+    
+}

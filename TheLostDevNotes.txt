@@ -1,0 +1,74 @@
+Tier 1 - Overworld
+
+Desert
+	Boss Ideas - 
+		- Mega Mummy
+		
+	Mob Ideas -
+		 
+Jungle
+	Boss Ideas - 
+		
+	Mob Ideas -
+		 
+Forest
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+Tier 2 - Nether
+
+Fortress
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+Soul
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+Warped
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+Piglin
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+Lava Wastes
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+
+Tier 3 - End
+
+End Wastes
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+End City
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+End Void
+	Boss Ideas - 
+		
+	Mob Ideas -
+
+
+Tier 4 - Any
+
+Portal Materials
+Tier 1 - Stone Bricks - Opens with Key to the Overworld (4 Uses per key)
+Tier 2 - Nether Bricks - Opens with Key to the Nether (4 Uses per key)
+Tier 3 - End Stone Bricks - Opens with Key to the End (4 Uses per key)
+Tier 4 - Purpur Block - Opens with Key to the *Cursed Text* (4 Uses per key)
+
+
+
