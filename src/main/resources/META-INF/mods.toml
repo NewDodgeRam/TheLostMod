@@ -1,0 +1,41 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="thelost" #mandatory
+
+version="1.16.4-0.0.1" #mandatory
+
+displayName="TheLost" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="https://github.com/NewDodgeRam/TheLostMod" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Mod created by NewDodgeRam and DiscoZ from OverTheLedge development" #optional
+
+authors="NewDodgeRam, DiscoZ" #optional
+
+description='''
+A mod focused on providing a challenging end-game experience with replayable, fresh content, and a myriad of interesting loot!
+'''
+
+[[dependencies.GeckoLib]] #optional
+
+    modId="geckolib3" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[35,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
