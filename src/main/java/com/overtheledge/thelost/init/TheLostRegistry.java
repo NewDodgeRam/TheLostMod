@@ -1,8 +1,10 @@
 package com.overtheledge.thelost.init;
 
 import com.overtheledge.thelost.TheLost;
-import com.overtheledge.thelost.blocks.BlockItemBase;
-import com.overtheledge.thelost.blocks.Lock;
+import com.overtheledge.thelost.block.BlockItemBase;
+import com.overtheledge.thelost.block.Lock;
+import com.overtheledge.thelost.block.Tier1PortalBlock;
+import com.overtheledge.thelost.block.tile.Tier1PortalTileEntity;
 import com.overtheledge.thelost.entity.*;
 import com.overtheledge.thelost.items.Key;
 import net.minecraft.block.Block;
@@ -10,6 +12,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,10 +23,12 @@ public class TheLostRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TheLost.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TheLost.MOD_ID);
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITIES, TheLost.MOD_ID);
+    public static final DeferredRegister<TileEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, TheLost.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        TILES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     // Items
@@ -34,10 +39,14 @@ public class TheLostRegistry {
 
     // Blocks
     public static final RegistryObject<Block> LOCK = BLOCKS.register("lock", Lock::new);
+    public static final RegistryObject<Block> TIER_1_PORTAL_BLOCK = BLOCKS.register("tier1portalblock", Tier1PortalBlock::new);
+
+    // Tiles
+    public static final RegistryObject<TileEntityType<Tier1PortalTileEntity>> TIER_1_PORTAL_TILE = TILES.register("tier1portaltile", () -> TileEntityType.Builder.create(Tier1PortalTileEntity::new, TheLostRegistry.TIER_1_PORTAL_BLOCK.get()).build(null));
 
     // Block Items
     public static final RegistryObject<Item> LOCK_ITEM = ITEMS.register("lock", () -> new BlockItemBase(LOCK.get()));
-
+    public static final RegistryObject<Item> TIER_1_PORTAL_ITEM = ITEMS.register("tier1portal", () -> new BlockItemBase(TIER_1_PORTAL_BLOCK.get()));
 
     // Entities
 

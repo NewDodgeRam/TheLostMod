@@ -1,4 +1,4 @@
-package com.overtheledge.thelost.blocks;
+package com.overtheledge.thelost.block;
 
 import com.overtheledge.thelost.TheLost;
 import net.minecraft.block.Block;

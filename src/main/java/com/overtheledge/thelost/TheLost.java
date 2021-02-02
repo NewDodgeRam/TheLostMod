@@ -36,6 +36,7 @@ public class TheLost
         TheLostRegistry.ENTITIES.register(modEventBus);
         TheLostRegistry.ITEMS.register(modEventBus);
         TheLostRegistry.BLOCKS.register(modEventBus);
+        TheLostRegistry.TILES.register(modEventBus);
 
         thelostItemGroup = new ItemGroup(ItemGroup.getGroupCountSafe(), "thelostcreativetab") {
             @Override

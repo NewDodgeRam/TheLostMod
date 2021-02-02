@@ -1,4 +1,4 @@
-package com.overtheledge.thelost.blocks;
+package com.overtheledge.thelost.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

@@ -3,10 +3,13 @@ package com.overtheledge.thelost.util;
 import com.overtheledge.thelost.TheLost;
 import com.overtheledge.thelost.client.render.*;
 import com.overtheledge.thelost.init.TheLostRegistry;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -57,6 +60,10 @@ public class ClientEventBusSubscriber {
         RenderingRegistry.registerEntityRenderingHandler(TheLostRegistry.SPITTER.get(),
                 SpitterRenderer::new);
 
+        // Tiles
+        ClientRegistry.bindTileEntityRenderer(TheLostRegistry.TIER_1_PORTAL_TILE.get(), Tier1PortalTileRenderer::new);
+
+        RenderTypeLookup.setRenderLayer(TheLostRegistry.TIER_1_PORTAL_BLOCK.get(), RenderType.getCutout());
     }
 
     public static class ConfigValueListener<T> implements Supplier<T>
