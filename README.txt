@@ -15,5 +15,7 @@ https://github.com/NewDodgeRam/TheLostMod
 Mod Authors:
 NewDodgeRam
 DiscoZ
+Sydood
+andyr48y
 
 Version: 0.0.1

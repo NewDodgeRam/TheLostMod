@@ -18,11 +18,11 @@ updateJSONURL="http://myurl.me/" #optional
 
 displayURL="https://github.com/NewDodgeRam/TheLostMod" #optional
 
-logoFile="examplemod.png" #optional
+logoFile="OverTheLedge.png" #optional
 
-credits="Mod created by NewDodgeRam and DiscoZ from OverTheLedge development" #optional
+credits="Mod created by NewDodgeRam, DiscoZ, Sydood, and andyr48y from OverTheLedge development" #optional
 
-authors="NewDodgeRam, DiscoZ" #optional
+authors="NewDodgeRam, DiscoZ, Sydood, andyr48y" #optional
 
 description='''
 A mod focused on providing a challenging end-game experience with replayable, fresh content, and a myriad of interesting loot!
