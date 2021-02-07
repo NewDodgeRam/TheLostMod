@@ -1,10 +1,7 @@
 package com.overtheledge.thelost.block.tile;
 
 import com.overtheledge.thelost.init.TheLostRegistry;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraftforge.common.ToolType;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.PlayState;
 import software.bernie.geckolib3.core.builder.AnimationBuilder;
